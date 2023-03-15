@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>background property css</title>
+    <style>
+        div{
+            border: dashed 5px orangered;
+            background-color: coral;
+            background-clip: border-box;
+            outline: solid;
+            outline-offset: 15px;
+            margin: 20px;
+            padding: 40px;
+            overflow: hidden;
+        }
+        img{
+            float: right;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <img src="data:image/jpeg;base64,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"width=300px>
+         <p style="color: darkred;font-size: xx-large;">PRABHAS BIOGRAPHTY</p>
+         <P style="color: darkcyan;font-size: xx-large;">prabhas was born to film producer uppalapati surya narayana raju and siva kumari.the youngest of the three children,he has a brother,prabodh and a sister,pragathi.he is the nephew of telugu actor krishnam raju.his family hails from mogalthur near bhimavaram of west godavari district,andhra pradesh.</P>
+
+    </div>
+    
+</body>
+</html>
